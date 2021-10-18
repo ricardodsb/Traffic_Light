@@ -7,7 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text">
-			<h1>My traffic Light with React</h1>
+			<h3>My traffic Light with React</h3>
 			<div className="stick"></div>
 			<div className="traffic-light">
 				<div className="light red"></div>
