@@ -14,6 +14,7 @@ const Home = () => {
 				<div className="light yellow"></div>
 				<div className="light green"></div>
 			</div>
+			<p className="footer">Made by Ricardo Da Silva</p>
 		</div>
 	);
 };
