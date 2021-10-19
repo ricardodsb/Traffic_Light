@@ -46,3 +46,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.glow {
+    border-radius: 50%;
+    box-shadow:  
+          0 0 20px 10px rgb(221, 193, 34),
+          0 0 30px 20px rgb(212, 186, 36)
+
+      
+}

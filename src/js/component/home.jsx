@@ -1,19 +1,11 @@
 import React from "react";
+import { TrafficLight } from "./lights.jsx";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
 const Home = () => {
 	return (
 		<div className="text">
 			<h3>My traffic Light with React</h3>
-			<div className="stick"></div>
-			<div className="traffic-light">
-				<div className="light red"></div>
-				<div className="light yellow"></div>
-				<div className="light green"></div>
-			</div>
+			<TrafficLight />
 			<p className="footer">Made by Ricardo Da Silva</p>
 		</div>
 	);
